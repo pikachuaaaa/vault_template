@@ -1,0 +1,10 @@
+# Ignoruj pliki widoku i ułożenia okien Obsidiana (zmieniają się co kliknięcie)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Ignoruj pamięć podręczną wykresu notatek
+.obsidian/graph.json
+
+# Ignoruj pliki tymczasowe i logi
+*.log
+.obsidian/backups/

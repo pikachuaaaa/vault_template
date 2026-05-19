@@ -1,0 +1,86 @@
+{
+  "id": "1fe46938-61c3-4bb3-a688-fd0824ed30c7",
+  "title": "możesz spradzić zdanie które napisałem moze je usp",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "możesz spradzić zdanie które napisałem moze je usprawnić jezykwoo?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "```Read me.md\nWitaj w instrukcji do Vaulta @uwu_dziewczynka w tym pliku znajdziesz jak zacząć robić z niego swój Vault.\n\n```\n\n\nmożesz spradzić zdanie które napisałem moze je usprawnić jezykwoo?\n\n"
+        }
+      ],
+      "id": "9f623706-faed-4b02-9429-2129263ca03d",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "Read me.md"
+        },
+        {
+          "type": "block",
+          "content": "Witaj w instrukcji do Vaulta @uwu_dziewczynka w tym pliku znajdziesz jak zacząć robić z niego swój Vault.\n",
+          "file": "Read me.md",
+          "startLine": 1,
+          "endLine": 2
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Oto propozycja poprawy Twojego zdania, aby brzmiało bardziej naturalnie i poprawnie interpunkcyjnie:\n\n<smtcmp_block filename=\"Read me.md\" language=\"markdown\">\nWitaj w instrukcji do Vaulta @uwu_dziewczynka. W tym pliku dowiesz się, jak zacząć dostosowywać go do własnych potrzeb.\n</smtcmp_block>\n\n**Zmiany:**\n*   Dodano kropkę po nazwie użytkownika, aby oddzielić powitanie od reszty tekstu.\n*   Zmieniono „jak zacząć robić z niego swój Vault” na „jak zacząć dostosowywać go do własnych potrzeb”, co brzmi profesjonalniej w kontekście Obsidian.",
+      "id": "5b3231f0-9525-4e9c-81cd-fa0bc6a00986",
+      "metadata": {
+        "model": {
+          "providerType": "gemini-plan",
+          "providerId": "gemini-plan",
+          "id": "gemini-3-flash-preview (plan)",
+          "model": "gemini-3-flash-preview"
+        },
+        "usage": {
+          "prompt_tokens": 544,
+          "completion_tokens": 169,
+          "total_tokens": 1272
+        }
+      },
+      "providerMetadata": {
+        "gemini": {
+          "thoughtSignature": "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"
+        }
+      }
+    }
+  ],
+  "createdAt": 1779220042072,
+  "updatedAt": 1779220054465,
+  "schemaVersion": 1
+}
